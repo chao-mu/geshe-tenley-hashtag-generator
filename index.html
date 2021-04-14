@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Geshe Tenley Hashtag Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Geshe Tenley Hashtag Generator</h1>
+
+      <p>
+        This form will generate 11 hashtags to use with your social media posts. This is the suggested number of hashtags to use on Instagram, but the ideal number of hashtags varies depending on platform (e.g. Facebook is 2).
+      </p>
+      <p>
+        The hashtags generated will be different each time! This is to ensure we hit the widest audience and also don't get penalized by the Instagram algorithm (according to an unproven theory).
+      </p>
+      <p>
+        All fields are optional. If you're in a rush, just check that it's a Geshe Tenley social media post and click generate.
+      </p>
+
+      <div class="card">
+        <div class="card-header">
+          Fill me out with simple words. All fields are <b>optional</b>!
+        </div>
+        <div class="card-body hashtag-form">
+          <!-- official -->
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" value="yes" id="official" checked>
+            <label class="form-check-label" for="official">
+              Geshe Tenley Social Media Post
+            </label>
+          </div>
+
+          <!-- quote -->
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" checked value="yes" id="quote">
+            <label class="form-check-label" for="quote">
+              A quote (from Geshe-la or otherwise)
+            </label>
+          </div>
+
+          <!-- location -->
+          <div class="form-group">
+            <label for="location">Location (if outside US, e.g. Bodhgaya)</label>
+            <input type="text" class="form-control" id="location" placeholder="">
+          </div>
+
+          <!-- origin -->
+          <div class="form-group">
+            <label for="origin">Quote origin (e.g. Shantideva)</label>
+            <input type="text" class="form-control" id="origin" placeholder="">
+          </div>
+
+          <!-- topics -->
+          <div class="form-group">
+            <label for="topic">Topic(s) (use single words per topic, e.g. Tara)</label>
+            <input type="text" class="form-control" id="topic" placeholder="">
+          </div>
+
+          <button class="btn btn-primary generate-and-copy mb-3">Generate and copy!</button>
+
+          <div class="form-group">
+            <label for="hashtagOutput">Hashtag Output</label>
+            <span class="badge badge-success d-none copied-badge">Copied!</span>
+            <textarea class="form-control" id="hashtagOutput" rows="3"></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="/assets/app.js"></script>
+  </body>
+</html>
